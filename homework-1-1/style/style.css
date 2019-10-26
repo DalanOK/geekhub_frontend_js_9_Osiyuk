@@ -1,0 +1,11 @@
+body{
+	width: 750px;
+	margin:auto;
+}
+header{
+	text-align: center;
+}
+.img_opposum{
+	display: block;
+	margin:30px auto;
+}
