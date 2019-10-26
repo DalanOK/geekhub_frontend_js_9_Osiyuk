@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Homework-1-2</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
@@ -23,17 +23,17 @@
 
    	<fieldset>
    	 	<legend><b>Подробнее о себе</b></legend>
-   	 	<p><input type="radio" name="radio_sex2" checked>Молодой Человек</p>
-   	 	<p><input type="radio" name="radio_sex2">Девушка</p>
-   	 	<input type="text"><label class="Label_sec_fieldset">Дата рождения</label><br>
-   	 	<input type="text"><label class="Label_sec_fieldset">Семейное положение</label><br>
-   	 	<input type="text"><label class="Label_sec_fieldset">Социальный статус</label><br>
+   	 	<p class="margin_fix"><input type="radio" name="radio_sex2" checked>Молодой Человек</p>
+   	 	<p class="margin_fix"><input type="radio" name="radio_sex2">Девушка</p>
+   	 	<p class="margin_fix"><input type="text"><label class="Label_sec_fieldset">Дата рождения</label></p>
+   	 	<p class="margin_fix"><input type="text"><label class="Label_sec_fieldset">Семейное положение</label></p>
+   	 	<p class="margin_fix"><input type="text"><label class="Label_sec_fieldset">Социальный статус</label></p>
    	 	<input type="text"><label class="Label_sec_fieldset">Местожительство</label>
 
    	 	<p><b>Что вы обычно делаете на выходных:</b></p>
-   	 	<input type="checkbox"><label>Сплю</label><br>
-   	 	<input type="checkbox"><label>Гуляю с друзьями</label><br>
-   	 	<input type="checkbox"><label>Хожу на рыбалку</label><br>
+   	 	<p class="margin_fix"><input type="checkbox"><label>Сплю</label></p>
+   	 	<p class="margin_fix"><input type="checkbox"><label>Гуляю с друзьями</label></p>
+   	 	<p class="margin_fix"><input type="checkbox"><label>Хожу на рыбалку</label></p>
    	 	<input type="checkbox"><label>Играю в Игры</label>
 
    	 	<p><b>Рассказать о формах в книге,посвященной HTML:</b></p>
@@ -42,9 +42,9 @@
    	 	</select>
 
    	 	<p><b>Сколько книг вы прочитали за свою жизнь:</b></p>
-   	 	<input type="radio" name="radio_book"><label>0-10</label><br>
-   	 	<input type="radio" name="radio_book"><label>11-20</label><br>
-   	 	<input type="radio" name="radio_book"><label>21-50</label><br>
+   	 	<p class="margin_fix"><input type="radio" name="radio_book"><label>0-10</label></p>
+   	 	<p class="margin_fix"><input type="radio" name="radio_book"><label>11-20</label></p>
+   	 	<p class="margin_fix"><input type="radio" name="radio_book"><label>21-50</label></p>
    	 	<input type="radio" name="radio_book"><label>50+</label>
 
    	 	<p><b>Ваши комментарии:</b></p>
@@ -60,18 +60,18 @@
    	<fieldset>
    		<legend><b>И в заключении</b></legend>
    		<p><input type="text" placeholder="Это поле было введено до вас" class="input_disabled" disabled></p>
-   		<b>Email:</b><br>
+   		<p class="margin_fix"><b>Email:</b></p>
    		<input type="email">
 
    		<p><b>Хотите подписаться на самую модную рассылку спама</b></p>
    		<p class="chose_categor"><i>Выберете категории</i></p>
-   		<input type="checkbox"><label>Обрудование</label><br>
-   	 	<input type="checkbox"><label>Как приготовить обеды</label><br>
-   	 	<input type="checkbox"><label>Заработай милион за два дня!</label><br>
+   		<p class="margin_fix"><input type="checkbox"><label>Обрудование</label></p>
+   	 	<p class="margin_fix"><input type="checkbox"><label>Как приготовить обеды</label></p>
+   	 	<input type="checkbox"><label>Заработай милион за два дня!</label>
 
    	 	<p><b>На сколько сложная была задача?</b></p>
-   	 	<input type="radio" name="radio_dificulty" checked><label>Совсем нет</label><br>
-   	 	<input type="radio" name="radio_dificulty"><label>Так себе</label><br>
+   	 	<p class="margin_fix"><input type="radio" name="radio_dificulty" checked><label>Совсем нет</label></p>
+   	 	<p class="margin_fix"><input type="radio" name="radio_dificulty"><label>Так себе</label></p>
    	 	<input type="radio" name="radio_dificulty"><label>Еле справились</label>
    	</fieldset>
    	    <p><input type="button" value="Отправить"></p>
