@@ -1,0 +1,16 @@
+body{
+	width: 800px;
+	margin:auto;
+}
+fieldset{
+	margin-top: 20px;
+}
+.Label_sec_fieldset{
+	margin-left: 4px;
+}
+.input_disabled{
+	width: 250px;
+}
+.chose_categor{
+	margin-top: -15px;
+}

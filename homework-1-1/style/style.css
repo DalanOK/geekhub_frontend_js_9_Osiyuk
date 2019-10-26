@@ -5,6 +5,9 @@ body{
 header{
 	text-align: center;
 }
+address{
+	margin-top: -15px;
+}
 .img_opposum{
 	display: block;
 	margin:30px auto;
